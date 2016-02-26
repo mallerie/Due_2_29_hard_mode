@@ -3,6 +3,9 @@
   font-family: 'Signika Negative', sans-serif;
 }
 
+div a {
+  width: 100%;
+}
 .top-bar {
   background-color: orange;
   height: 45px;
@@ -10,7 +13,8 @@
 }
 
 .top-bar li {
-  display: inline;
+  display: inline-block;
+
 }
 
 .free-shipping {
