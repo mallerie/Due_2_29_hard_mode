@@ -1,0 +1,33 @@
+* {
+  list-style: none;
+  font-family: 'Signika Negative', sans-serif;
+}
+
+.top-bar {
+  background-color: orange;
+  height: 45px;
+  width: 100%;
+}
+
+.top-bar li {
+  display: inline;
+}
+
+.free-shipping {
+    margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*.top-bar a {
+  display: block;
+  position: relative;
+  margin: auto;
+}*/
+
+
+#free-ship-button {
+  border: 1px black solid;
+}
