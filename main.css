@@ -3,35 +3,81 @@
   font-family: 'Signika Negative', sans-serif;
 }
 
-div a {
-  width: 100%;
-}
-.top-bar {
-  background-color: orange;
-  height: 45px;
-  width: 100%;
-}
+body {
 
-.top-bar li {
-  display: inline-block;
-
-}
-
-.free-shipping {
-    margin: 0;
 }
 
 a {
   text-decoration: none;
 }
 
-/*.top-bar a {
-  display: block;
-  position: relative;
-  margin: auto;
-}*/
+div a {
+  width: 100%;
+  height: 30px;
+  display:block;
+  
+}
 
+.top-bar {
+  background-color: #F96938;
+  height: 30px;
+  width: 100%;
+  /*border: 1px black solid;*/
+}
+
+.top-bar li {
+  display: inline-block;
+  font-size: 14px;
+  color: white;
+  z-index: 1;
+  text-shadow: 1px 0px #616161;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.free-shipping {
+    margin: 0;
+}
+
+.free-shipping li {
+  padding: 5px;
+}
 
 #free-ship-button {
-  border: 1px black solid;
+  background: #E2E1E2;
+  opacity: 0.4;
+  /*border: 1px black solid;*/
+  text-shadow: none;
+  padding-top: 2px;
+  padding-bottom: 2px;
 }
+
+.nav {
+  background-color: white;
+  height: 101px;
+  width: 100%;
+}
+ .nav img {
+    width: 110px;
+ }
+
+
+.nav li {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.get-info, .cart-search,
+ .nav li, .nav-options, #free-ship-button {
+  display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
