@@ -1,76 +1,295 @@
 * {
   list-style: none;
   font-family: 'Signika Negative', sans-serif;
+  /*box-sizing: border-box;*/
 }
 
 body {
-
+    /*margin-left: 70px;
+    margin-right: 70px;*/
 }
 
 a {
   text-decoration: none;
+
 }
 
-div a {
+.top-bar a {
+  height: 30px;
+}
+
+/*div a {
   width: 100%;
   height: 30px;
   display:block;
-  
-}
+  padding: 0;
+}*/
 
 .top-bar {
+  padding-left: 65px;
   background-color: #F96938;
   height: 30px;
   width: 100%;
-  /*border: 1px black solid;*/
+  /*box-sizing: border-box;*/
 }
 
 .top-bar li {
   display: inline-block;
-  font-size: 14px;
+  font-size: 15px;
+  font-weight: lighter;
   color: white;
-  z-index: 1;
+  /*z-index: 1;*/
   text-shadow: 1px 0px #616161;
-  margin-left: 10px;
-  margin-right: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .free-shipping {
     margin: 0;
+    height: 30px;
+}
+
+.free-shipping ul {
+  max-height: 30px;
 }
 
 .free-shipping li {
   padding: 5px;
+  max-height: 100%;
 }
 
 #free-ship-button {
   background: #E2E1E2;
-  opacity: 0.4;
+  background-opacity: 0.4;
   /*border: 1px black solid;*/
   text-shadow: none;
-  padding-top: 2px;
-  padding-bottom: 2px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 2px;
+  margin-bottom: 2px;
 }
 
 .nav {
   background-color: white;
-  height: 101px;
+  height: 150px;
   width: 100%;
+  /*border: solid red 1px;*/
+  box-sizing: border-box;
 }
+
  .nav img {
-    width: 110px;
+  height: 150px;
+  padding-left: 60px;
+  border: solid red  1px;
+  box-sizing: border-box;
+  float: left;
  }
 
+ .nav div {
+  height: 150px;
+  float: left;
+  box-sizing: border-box;
+ }
+
+.nav-options {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 150px;
+  box-sizing: border-box;
+  border: solid red 1px;
+  display: inline-block;
+  float: left;
+}
+
+.nav-options li {
+  margin-top: 35px;
+  margin-bottom: 35px;
+  margin-left: 15px;
+  margin-right: 15px;
+  border: solid red 1px;
+
+}
+
+.nav-options li:last-child {
+  margin-right: 40px;
+ } 
+
+.get-info {
+  float: left;
+  width: 190px;
+  height: 25px;
+  box-sizing: border-box;
+  /*position: absolute;
+  right: 150px;*/
+}
+
+.get-info ul {
+  box-sizing: border-box;
+  height: 150px;
+}
+
+.get-info li {
+  border: solid red 1px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 30px;
+  display: inline-block;
+}
+
+
+/*Sign In Button*/
+.get-info li:nth-child(1) {
+  font-size: 10px;
+  color: #ccc;
+  /*position: absolute;*/
+  top: 80px;
+  right: 180px;
+}
+/*Sign In Button*/
+
+/*Register Button*/
+.get-info li:nth-child(2) {
+  font-size: 10px;
+  color: #ccc;
+  top: 80px;
+  right: 80px;
+}
+/*Register Button*/
+
+div .cart-search {
+  float: left;
+  border: solid red  1px;
+  display: inline;
+  width: 180px;
+  height: 40px;
+  /*overflow: auto;
+*/
+}
+
+#cart {
+  height: 25px;
+  width: 50px;
+  padding: 0;
+  display: inline-block;
+}
+
+#search {
+  height: 25px;
+  width: 100px;
+  margin-left: 20px;
+  display: inline-block;
+
+}
 
 .nav li {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  font-size: 24px;
+  font-weight: lighter;
+}
+
+#cart {
+  display: inline-block;
+  border: solid red 1px;
+}
+
+#search {
+  display: inline-block;
+  border: solid red 1px;
 }
 
 .get-info, .cart-search,
- .nav li, .nav-options, #free-ship-button {
+ .nav li, .nav-options, #free-ship-button, 
+ .dem-ties li, .what-we-have li {
   display: inline-block;
 }
+
+.dressing {
+  max-height: 350px;
+  background-color: #F4F4F4;
+
+}
+
+.dem-ties ul {
+  margin-left: 65px;
+  margin-top: 0px;
+  /*max-height: 300px;*/
+}
+
+.dem-ties li {
+  height: 150px;
+  margin-left: 5px; 
+  margin-right: 5px; 
+}
+
+.dem-ties img {
+  height: 160px;
+  float: left;
+}
+
+.dem-ties ul:nth-child(2) {
+  max-height: 20px;
+}
+
+.tie-options ul {
+  max-height: 20px;
+}
+
+.tie-options li {
+  padding-right: 15px;
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: lighter;
+
+}
+
+#dress-better {
+  font-size: 25 px;
+  font-weight: lighter;
+  height: 135px;
+  padding: 10px;
+}
+
+#dress-better h1 {
+  font-size: 56px;
+  font-weight: lighter;
+  box-sizing: border-box;
+  margin: 0 auto;
+  margin-right: 150px;
+  text-align: center;
+}
+
+.what-we-have {
+  position: relative;
+}
+/*.what-we-have ul {
+  height: 350px;
+  padding-left: 20px;
+  padding-right: 50px;
+ 
+}*/
+
+.what-we-have li {
+  height: 150px;
+  /*padding-left: 20px;
+  padding-right: 50px;*/
+ 
+}
+
+.what-we-have img {
+  width: 290px;
+  margin: 20px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+}
+
+h2 {
+  position: absolute;
+}
+
+/*h2:nth-child(1) {
+  position: absolute;
+  top: 50px;
+}*/
 
 
 
