@@ -71,22 +71,23 @@ a {
 
 .nav {
   background-color: white;
-  height: 150px;
+  height: 127px;
   width: 100%;
   /*border: solid red 1px;*/
   box-sizing: border-box;
 }
 
  .nav img {
-  height: 150px;
-  padding-left: 60px;
+  height: 110px;
+  padding-left: 110px;
+  padding-top: 5px;
   border: solid red  1px;
   box-sizing: border-box;
   float: left;
  }
 
  .nav div {
-  height: 150px;
+  height: 135px;
   float: left;
   box-sizing: border-box;
  }
@@ -94,7 +95,7 @@ a {
 .nav-options {
   margin-top: 0px;
   margin-bottom: 0px;
-  height: 150px;
+  height: 120px;
   box-sizing: border-box;
   border: solid red 1px;
   display: inline-block;
@@ -242,23 +243,29 @@ div .cart-search {
 }
 
 #dress-better {
-  font-size: 25 px;
+  font-size: 30 px;
   font-weight: lighter;
   height: 135px;
-  padding: 10px;
+  padding: 40px 10px 10px 155px;
 }
 
 #dress-better h1 {
   font-size: 56px;
   font-weight: lighter;
+  letter-spacing: 1px;
   box-sizing: border-box;
   margin: 0 auto;
   margin-right: 150px;
   text-align: center;
 }
 
+.about {
+  margin: 50px 0px 10px 110px;
+}
+
 .what-we-have {
   position: relative;
+  max-height: 190px;
 }
 /*.what-we-have ul {
   height: 350px;
@@ -275,10 +282,8 @@ div .cart-search {
 }
 */
 .what-we-have img {
-  width: 290px;
-  margin: 20px;
-  margin-top: 15px;
-  margin-bottom: 15px;
+  width: 340px;
+  margin: 25px 0px 0px 5px;
   border: 1px solid #ccc;
   float: left;
   position: relative;
@@ -287,6 +292,7 @@ div .cart-search {
 .what-we-have div {
   height: 180px;
   display: inline-block;
+  padding: 0px 5px 0px 5px;
 
 }
 
@@ -294,59 +300,160 @@ h2 {
   position: absolute;
   z-index: 1;
   float: right;
-  padding-left: 200px;
+  margin: 50px 0px 0px 250px;
 }
 
+.history {
+  margin: 120px 30px 0px 0px;
+}
 .history p {
   font-size: 36px;
   font-weight: lighter;
   text-align: center;
+  margin: 20px 0px 20px 0px;
+
 }
 
 h3 {
-  font-size: 14px;
+  font-size: 16px;
   color: #039DFE;
   font-weight: lighter;
   text-align: center;
+  letter-spacing: 2px;
+  margin: 5px 0px 0px 10px;
 }
 
 .more-info {
   width: 100%;
-  height: 150px;
-  /*position: relative;
-*/}
-
-.more-info div {
-  /*display: inline-block;*/
+  /*height: 150px;*/
+  position: relative;
 
 }
 
-.weekly-pick div {
-   /*position: absolute;*/
+/*.more-info p {
+  display: inline-block;
+  float: left;
+}
+*/
+h4 {
+  float: left;
+  font-size: 18px;
 }
 
-.loop-us-in div {
-    
+.weekly-pick {
+  width: 280px;
+  display: inline-block;
+  float: left;
+  margin: 50px 10px 20px 70px;
 }
 
-.the-quarterly div {
-  
-}
-
-.style-guide div {
-    
+.weekly-pick li {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 250px;
 }
 
 .weekly-pick img {
-  height: 100px;
+  height: 140px;
 }
 
+
+.loop-us-in {
+  display: inline-block; 
+  width: 280px;
+  padding: 0px 0px 0px 0px;
+  float: left;
+  margin: 45px 0px 20px 0px;
+}
+
+.loop-us-in li {
+  display: inline-block;
+  font-size: 14px;
+}
+
+.loop-us-in ul {
+  width: 150;
+}
+
+
+.the-quarterly {
+  display: inline-block;
+  width: 280px;
+  float: left;
+  margin: 40px 0px 20px 0px;
+}
+
+.the-quarterly li {
+  display: inline-block;
+  float: left;
+  padding: 0px 20px 0px 20px;
+  font-size: 14px;
+}
+
+.style-guide {
+  display: inline-block; 
+  width: 280px; 
+  float: left;
+  margin: 40px 40px 20px 10px;
+}
+
+.style-guide li {
+  display: inline-block; 
+  font-size: 14px;
+}
+
+.style-guide img {
+  width: 240px;
+}
+
+.sprite {
+  background: url(sprite@2x.png) no-repeat 0 0;
+}
+
+#fb {
+  background-position: -540px 0;
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+}
+
+#pinterest {
+  background: url(sprite@2x.png) no-repeat -540px -80px;
+  width: 20px;
+  height: 20px;
+}
+
+#twitter {
+  background: url(sprite@2x.png) no-repeat -540px -160px;
+  background-size: 400px 200px;
+  width: 20px;
+  height: 20px;
+  background-image: 
+}
+
+
 .footer {
-  
+  clear: left;
 }
 
 .last-footer {
 
+}
+
+.shop-by {
+  display: inline-block;
+}
+
+.about-us {
+  display: inline-block;
+}
+
+.style-guide2 {
+  display: inline-block;
+}
+
+.help {
+  display: inline-block;
 }
 
 
