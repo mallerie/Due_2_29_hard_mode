@@ -48,24 +48,41 @@ a {
 }
 
 #free-ship-button {
-  background: #7c7c7c;
-  opacity: 0.5;
+  background: #CA5424;
   font-size: 14px;
-  /*border: 1px black solid;*/
   text-shadow: none;
   padding-top: 4px;
   padding-bottom: 4px;
   margin: 6px 0px 6px 0px;
   z-index: 0;
   border-radius: 3px;
+  color: white;
 }
+
+#thecart {
+  background: url('sprite@2x.png') no-repeat -90px -32px;
+  width: 28px;
+  height: 24px;
+  /*background-size: 350px 200px;*/
+  /*overflow: hidden;*/
+}
+
+#thesearch {
+  background: url('sprite@2x.png') no-repeat -30px -30px;
+  width: 26px;
+  height: 26px;
+}
+
+/*div#thecart {
+  width: 28px;
+  height: 24px;
+}*/
 
 .nav {
   background-color: white;
   padding: 0px 0px 0px 110px;
   height: 122px;
   width: 100%;
-  /*border: solid red 1px;*/
   box-sizing: border-box;
 }
 
@@ -145,11 +162,15 @@ a {
 }
 
 .get-info li {
-  margin-top: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+
   display: inline-block;
   float: right;
-  
 }
+
+/*li#spritecart {
+  padding: 0px 0px 0px 0px;
+}*/
 
 
 /*Sign In Button*/
@@ -176,8 +197,6 @@ a {
   height: 20px;
   position: absolute;
 
-  /*overflow: auto;
-*/
 }
 
 /*CART BUTTON*/
@@ -207,12 +226,12 @@ a {
 }
 
 li.cart {
-  padding:10px 15px 15px 25px;
+  padding:2px 15px 15px 10px;
   box-sizing: border-box;
 }
 
 li.search {
-  padding:10px 15px 15px 25px;
+  padding:2px 15px 15px 10px;
   box-sizing: border-box;
 }
 
@@ -459,7 +478,7 @@ li#subscribe-me {
   display: inline-block;
 }
 
-#pinterest {
+/*#pinterest {
   background: url(sprite@2x.png) no-repeat -540px -80px;
   width: 20px;
   height: 20px;
@@ -471,7 +490,7 @@ li#subscribe-me {
   width: 20px;
   height: 20px;
   background-image: 
-}
+}*/
 
 
 .footer {
