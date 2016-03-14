@@ -60,23 +60,18 @@ a {
 }
 
 #thecart {
-  background: url('sprite@2x.png') no-repeat -90px -32px;
-  width: 28px;
-  height: 24px;
-  /*background-size: 350px 200px;*/
-  /*overflow: hidden;*/
+  background: url('sprite@2x.png') no-repeat -45px -16px;
+  background-size: 400px 200px;
+  width: 14px;
+  height: 12px;
 }
 
 #thesearch {
-  background: url('sprite@2x.png') no-repeat -30px -30px;
-  width: 26px;
-  height: 26px;
+  background: url('sprite@2x.png') no-repeat -15px -15px;
+  background-size: 400px 200px;
+  width: 13px;
+  height: 13px;
 }
-
-/*div#thecart {
-  width: 28px;
-  height: 24px;
-}*/
 
 .nav {
   background-color: white;
@@ -206,9 +201,6 @@ a {
   display: inline-block;
   border-radius: 5px;
   border: 1px solid #ccc;
-  /*text-align: center;*/
-
-  /*position: absolute;*/
 }
 
 .get-info ul:nth-child(2) li {
@@ -246,24 +238,30 @@ li.search {
   display: inline-block;
 }
 
-/*WHY IS THIS SPRITE NOT WORKING?!?!*/
-
-/*.search {
-  background: url('sprite@2x.png') no-repeat -90px -32px;
-  width: 28px;
-  height: 19px;
-}*/
-
 .dressing {
   height: 350px;
   background-color: #F4F4F4;
 
 }
 
+.border {
+  background-image: url(perforated-bottom@2x.png);
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 8px;
+}
+
+.border img {
+  height: 5px;
+  margin: 0;
+  padding: 0;
+}
+
 .dem-ties ul {
   margin-left: 65px;
   margin-top: 0px;
-  /*max-height: 300px;*/
 }
 
 .dem-ties li {
@@ -279,7 +277,7 @@ li.search {
 
 .dem-ties div {
   padding: 0px 0px 0px 60px;
-}
+  }
 
 .dem-ties ul:nth-child(2) {
   max-height: 20px;
@@ -315,27 +313,14 @@ li.search {
 }
 
 .about {
-  margin: 50px 0px 10px 110px;
+  margin: 50px 0px 65px 110px;
 }
 
 .what-we-have {
   position: relative;
   max-height: 190px;
 }
-/*.what-we-have ul {
-  height: 350px;
-  padding-left: 20px;
-  padding-right: 50px;
- 
-}*/
 
-/*.what-we-have li {
-  height: 150px;
-  padding-left: 20px;
-  padding-right: 50px;
- 
-}
-*/
 .what-we-have img {
   width: 340px;
   margin: 25px 0px 0px 5px;
@@ -378,11 +363,20 @@ h3 {
   margin: 5px 0px 0px 10px;
 }
 
+.hatch {
+  background-image: url(hatch-light@2x.png);
+  background-repeat: repeat-x;
+  position: absolute;
+  z-index: 3;
+  width: 100%;
+  height: 10px;
+}
+
 .more-info {
   width: 100%;
   /*height: 150px;*/
   position: relative;
-
+  height: 350px;
 }
 
 /*.more-info p {
@@ -399,7 +393,15 @@ h4 {
   width: 280px;
   display: inline-block;
   float: left;
-  margin: 50px 10px 20px 70px;
+  margin: 60px 0px 20px 70px;
+}
+
+.weekly-pick h4 {
+  Margin: 10px 0px 0px 0px;
+}
+
+.weekly-pick ul {
+  margin: 30px 0px 0px 0px;
 }
 
 .weekly-pick li {
@@ -418,37 +420,76 @@ h4 {
   width: 280px;
   padding: 0px 0px 0px 0px;
   float: left;
-  margin: 45px 0px 20px 0px;
+  margin: 45px 0px 0px 0px;
 }
 
 .loop-us-in li {
   display: inline-block;
   font-size: 14px;
+  line-height: 22px;
 }
 
 .loop-us-in ul {
-  width: 150;
+  padding: 0px 0px 0px 0px;
+  margin: 15px 0px 0px 36px;
+  width: 250px;
+}
+
+.loop-us-in h4 {
+  margin: 43px 0px 0px 0px;
+
 }
 
 
 .the-quarterly {
   display: inline-block;
-  width: 280px;
+  width: 260px;
+  height: 200px;  
   float: left;
-  margin: 40px 0px 20px 0px;
+  margin: 85px 0px 0px 0px;
 }
 
 .the-quarterly li {
   display: inline-block;
   float: left;
-  padding: 0px 20px 0px 20px;
+  padding: 0px 0px 0px 0px;
   font-size: 14px;
+  line-height: 22px;
+
 }
+
+.the-quarterly h4 {
+  margin: 0px 0px 0px 0px;
+}
+
+.the-quarterly #email {
+  border: 1px solid #ccc;
+  border-radius: 1px;
+  width: 200px;
+  display: block;
+  margin-bottom: 10px;
+  color: #909090;
+}
+
+#subscribe-me-button {
+  clear: all;
+  display: block;
+  color: white;
+}
+
+
+
+
+
 
 #subscribe-me {
   background-color: rgb(36, 137, 255);
   border-radius: 3px;
   color: white;
+  clear: all;
+  padding: 6px 4px;
+  font-weight: lighter;
+
 }
 
 li#subscribe-me {
@@ -471,39 +512,114 @@ li#subscribe-me {
   width: 240px;
 }
 
-#fb {
-  background-position: -540px 0;
-  width: 20px;
-  height: 20px;
-  display: inline-block;
+.blue-text {
+  color: #039DFE;
+  font-weight: lighter;
+}
+.social {
+  margin-top: 13px;
+  margin-right: 8px;
 }
 
-/*#pinterest {
-  background: url(sprite@2x.png) no-repeat -540px -80px;
-  width: 20px;
-  height: 20px;
+#fb {
+  background: url('sprite@2x.png') no-repeat -270px 0;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
+}
+
+#pinterest {
+  background: url('sprite@2x.png') no-repeat -270px -40px;
+  background-size: 400px 200px;
+  width: 35px;
+  height: 35px;
 }
 
 #twitter {
-  background: url(sprite@2x.png) no-repeat -540px -160px;
+  background: url('sprite@2x.png') no-repeat -270px -80px;
   background-size: 400px 200px;
-  width: 20px;
-  height: 20px;
-  background-image: 
-}*/
+  width: 35px;
+  height: 35px;
+}
 
 
 .footer {
   clear: left;
+  background-color: #F4F4F4;
+  height: 180px;
+  display: flex;
+  padding: 35px 0 0 65px;
 }
 
-.last-footer {
+.footer-columns {
+  width: 122px;
+  box-sizing: border-box;
+  display: inline-block;
+  /*font-weight: lighter;*/
+  font-size: 14px;
 
+}
+
+.contact {
+  display: inline-block;
+  border: 1px solid #929EAD;
+  border-radius: 3px;
+  align-items: flex-end;
+  height: 126px;
+  width: 322px;
+  background-color: #A2AFC0;
+  margin: 30px 112px 10px 400px;
+}
+
+.contact ul {
+  margin: 0;
+  padding: 10px;
+  display: inline-block;
+}
+
+.contact li {
+  color: white;
+  font-weight: lighter;
+}
+
+button {
+  display: inline-block;
+  background-color: #33A1FF;
+  border: 1px solid #2B89D9;
+  color: white;
+  font-weight: lighter;
+}
+
+.contact p {
+  color: white;
+  font-size: 24px;
+  font-weight: lighter;
+  margin: 10px 0 10px 10px;
+}
+.last-footer {
+  background-color: #F4F4F4;
+  padding: 30px;
+}
+
+.last-footer p {
+  margin: 0px;
+  font-size: 13px;
+  color: #909090;
 }
 
 .shop-by {
   display: inline-block;
 }
+
+.footer-columns li {
+  color: #909090;
+}
+
+.footer-columns li:first-child {
+  color: black;
+}
+
+
 
 .about-us {
   display: inline-block;
